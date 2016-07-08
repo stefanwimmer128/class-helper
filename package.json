@@ -1,6 +1,6 @@
 {
   "name": "class-helper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ClassHelper helps creating classes easily",
   "main": "lib/class-helper.js",
   "dependencies": {},
