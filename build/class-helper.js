@@ -20,9 +20,6 @@ const ClassHelper = function (_prototype = {}, _extend = Object, _factory = [], 
     if (! Array.isArray(_factory))
         throw new Error("Factories must be in array!");
     
-    if (! Array.isArray(_bound))
-        throw new Error("Bound functions must be in array!");
-    
     const _class = function (...args)
     {
         _bound.forEach(bound =>
@@ -82,7 +79,7 @@ module.exports = ClassHelper;
 },{"../package.json":2}],2:[function(require,module,exports){
 module.exports={
   "name": "class-helper",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "ClassHelper helps creating classes easily",
   "main": "lib/class-helper.js",
   "dependencies": {},
