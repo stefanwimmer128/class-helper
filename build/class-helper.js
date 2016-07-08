@@ -32,7 +32,7 @@ const ClassHelper = function (_prototype = {}, _extend = Object, _factory = [], 
         
         _prototype.constructor.call(this, (function (...args)
         {
-            _extend.apply(this, args);
+            Object.assign(this, new _extend(...args));
             Object.assign(this, _class.prototype);
         }).bind(this), ...args);
     };
@@ -79,7 +79,7 @@ module.exports = ClassHelper;
 },{"../package.json":2}],2:[function(require,module,exports){
 module.exports={
   "name": "class-helper",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "ClassHelper helps creating classes easily",
   "main": "lib/class-helper.js",
   "dependencies": {},
