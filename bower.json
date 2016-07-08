@@ -1,0 +1,14 @@
+{
+  "name": "class-helper",
+  "description": "ClassHelper helps creating classes easily",
+  "main": "lib/class-helper.js",
+  "authors": [
+    "Stefan Wimmer <stefanwimmer128@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "class-helper",
+    "class"
+  ],
+  "homepage": "https://github.com/stefanwimmer128/class-helper#readme"
+}

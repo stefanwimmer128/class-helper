@@ -1,0 +1,27 @@
+{
+  "name": "class-helper",
+  "version": "0.1.0",
+  "description": "ClassHelper helps creating classes easily",
+  "main": "lib/class-helper.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  },
+  "scripts": {
+    "build": "browserify lib/class-helper.js -o build/class-helper.js --standalone ClassHelper"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanwimmer128/class-helper.git"
+  },
+  "keywords": [
+    "class-helper",
+    "class"
+  ],
+  "author": "Stefan Wimmer <stefanwimmer128@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stefanwimmer128/class-helper/issues"
+  },
+  "homepage": "https://github.com/stefanwimmer128/class-helper#readme"
+}
