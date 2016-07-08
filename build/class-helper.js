@@ -20,6 +20,9 @@ const ClassHelper = function (_prototype = {}, _extend = Object, _factory = [], 
     if (! Array.isArray(_factory))
         throw new Error("Factories must be in array!");
     
+    if (! Array.isArray(_bound))
+        throw new Error("Bound functions must be in array!");
+    
     const _class = function (...args)
     {
         _bound.forEach(bound =>
