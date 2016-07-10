@@ -6,21 +6,27 @@ ClassHelper helps creating classes easily
 
 ClassHelper can be used either as node module or bower component.
 
-### Use as node module
+### Using npm
 
 ``` bash
 npm i -S class-helper
 ```
 
-### Use as bower component
+``` javascript
+const ClassHelper = require("class-helper");
+```
+
+### Using bower
 
 ``` bash
 bower i -S class-helper
 ```
 
-### How to make classes
+``` html
+<script src="bower_components/class-helper/build/class-helper.js"></script>
+```
 
-ClassHelper must be either required (node module) or is available globally (bower component).
+### Start coding
 
 ``` javascript
 const Logger = ClassHelper.Factory({

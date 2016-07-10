@@ -79,7 +79,7 @@ module.exports = ClassHelper;
 },{"../package.json":2}],2:[function(require,module,exports){
 module.exports={
   "name": "class-helper",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ClassHelper helps creating classes easily",
   "main": "lib/class-helper.js",
   "dependencies": {},
